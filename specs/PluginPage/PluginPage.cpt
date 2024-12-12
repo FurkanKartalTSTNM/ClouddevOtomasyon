@@ -1,0 +1,57 @@
+
+
+# Plugin tabına tıklanır
+* User Information tabına tıkla
+* Account Information tabına tıkla
+* "PluginButton_PluginPage" elementinin görünür olması kontrol edilir
+* "PluginButton_PluginPage" elementine tıkla
+
+# TestRail kartına tıklanır
+* "TestrailCardEdit_PluginPage" elementinin görünür olması kontrol edilir
+* "TestrailCardEdit_PluginPage" elementine tıkla
+
+# TestRail entegrasyon bilgileri girilir
+* "TestRailServerUrl_PluginSetting" elementinin görünür olması kontrol edilir
+* "TestRailServerUrl_PluginSetting" elementinin değerini temizle
+* "TestRailServerUrl_PluginSetting" elementine "https://testinium.testrail.net/" değerini yaz
+* "TestRailUserName_PluginSetting" elementinin görünür olması kontrol edilir
+* "TestRailUserName_PluginSetting" elementinin değerini temizle
+* "TestRailUserName_PluginSetting" elementine "onur@testinium.com" değerini yaz
+* "TestRailPassword_PluginSetting" elementinin görünür olması kontrol edilir
+* "TestRailPassword_PluginSetting" elementinin değerini temizle
+* "TestRailPassword_PluginSetting" elementine "Testinium.2014+" değerini yaz
+
+# Save butonuna tıklanır for plugin page
+* "SaveButton_PluginSetting" elementinin görünür olması kontrol edilir
+* "SaveButton_PluginSetting" elementine tıkla
+
+# Cancel butonuna tıklanır for plugin page
+* "CancelButton_PluginSetting" elementinin görünür olması kontrol edilir
+* "CancelButton_PluginSetting" elementine tıkla
+* Şu anki url "https://clouddev.testinium.io/user/account/plugin" ile aynı mı
+
+# Projects tabına tıklanır for Plugin Page
+* "projectsTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "projectsTab_SideBarTabs" elementine tıkla
+
+# Advance tabında testrail butonunun enable edilmesi
+* "ProjectTab_AdvancedTab_TestRailSubTab" elementinin görünür olması kontrol edilir
+* "ProjectTab_AdvancedTab_TestRailSubTab" elementine tıkla
+/* "ProjectTab_AdvancedTab_TestRailSubTab_EnableButon" elementine tıkla
+
+# Proje seçilip advance tabına tıklanır
+* Proje arama kutusuna "Selenium3Automation" yazılır.
+* "Selenium3Automation" adlı proje seçilir for pluginPage
+* Advanced tabına tıklanır
+
+# <projectName> adlı proje seçilir for pluginPage
+* "ProjectPage_SelectProject" elementine tıkla
+
+# Advanced tabına tıklanır
+* "ProjectTab_AdvancedTab" elementinin görünür olması kontrol edilir
+* "ProjectTab_AdvancedTab" elementine tıkla
+
+# Proje arama kutusuna <proje> yazılır.
+* "projectSearch_ProjectsPage" elementinin görünür olması kontrol edilir
+* "projectSearch_ProjectsPage" elementine <proje> değerini yaz
+* "1" saniye bekle

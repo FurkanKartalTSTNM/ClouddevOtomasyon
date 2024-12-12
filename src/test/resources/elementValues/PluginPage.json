@@ -1,0 +1,131 @@
+[
+
+{
+  "key": "PluginButton_PluginPage",
+  "value": "//a[@href='/user/account/plugin' and text()='PLUGINS']",
+  "type": "xpath"
+  },
+  {
+
+    "key": "TestrailCardEdit_PluginPage",
+    "value": "//button[@nztooltiptitle='Edit' and @ng-reflect-router-link='edit/TESTRAIL']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "TestRailServerUrl_PluginSetting",
+    "value": "pluginFormUrl",
+    "type": "id"
+  },
+  {
+
+    "key": "TestRailUserName_PluginSetting",
+    "value": "pluginFormUserName",
+    "type": "id"
+  },
+  {
+
+    "key": "TestRailPassword_PluginSetting",
+    "value": "pluginFormPassword",
+    "type": "id"
+  },
+  {
+
+    "key": "SaveButton_PluginSetting",
+    "value": "//button[@type='submit' and contains(@class, 'btn-primary')]",
+    "type": "xpath"
+  },
+  {
+
+    "key": "CancelButton_PluginSetting",
+    "value": "//a[@routerlink='/user/account/plugin']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "ProjectTab_AdvancedTab",
+    "value": "//a[@href='/project/detail/1247/advanced' and text()='ADVANCED']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "ProjectTab_AdvancedTab_TestRailSubTab",
+    "value": "//button[@aria-selected='true']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "ProjectTab_AdvancedTab_TestRailSubTab_EnableButon",
+    "value": "//label[contains(@class, 'switch-primary')]",
+    "type": "xpath"
+  },
+  {
+    "key": "ProjectPage_SelectProject",
+    "value": "//div[@class='project-content']//h5[contains(text(), 'Selenium3Automation')]",
+    "type": "xpath"
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": ""
+
+
+
+  }
+]
+
