@@ -135,6 +135,7 @@ Tags: XrayProjeninPlanTabinaTiklandigindaAdvanceSettingSayfasiKontrolu
 * Projenin seçilip edit butonuna tıklanması
 * Advance setting tabına tıklanır for xray
 
+
 Xray Projenin plan sayfasında Advance tabına tılandığında enable buton kontrolü
 ---------------------
 Tags: XrayProjeninPlanSayfasindaAdvanceTabinaTiklandigindaEnableButonKontrolu
