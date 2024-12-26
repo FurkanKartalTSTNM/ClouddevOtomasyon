@@ -10,6 +10,10 @@
 * "TestrailCardEdit_PluginPage" elementinin görünür olması kontrol edilir
 * "TestrailCardEdit_PluginPage" elementine tıkla
 
+# Xray kartına tıklanır
+* "XrayCardEdit_PluginPage" elementinin görünür olması kontrol edilir
+* "XrayCardEdit_PluginPage" elementine tıkla
+
 # TestRail entegrasyon bilgileri girilir
 * "TestRailServerUrl_PluginSetting" elementinin görünür olması kontrol edilir
 * "TestRailServerUrl_PluginSetting" elementinin değerini temizle
@@ -21,6 +25,52 @@
 * "TestRailPassword_PluginSetting" elementinin değerini temizle
 * "TestRailPassword_PluginSetting" elementine "Testinium.2014+" değerini yaz
 
+# TestRail kartında değişiklik yapılır
+* "TestRailPassword_PluginSetting" elementinin değerini temizle
+* "TestRailPassword_PluginSetting" elementine "Testinium.2014+" değerini yaz
+
+# Xray entegrasyon bilgileri girilir
+* "XrayServerUrl_PluginSetting" elementinin görünür olması kontrol edilir
+* "XrayServerUrl_PluginSetting" elementinin değerini temizle
+* "XrayServerUrl_PluginSetting" elementine "https://digiport.arcelik.com/" değerini yaz
+* "XrayUserName_PluginSetting" elementinin görünür olması kontrol edilir
+* "XrayUserName_PluginSetting" elementinin değerini temizle
+* "XrayUserName_PluginSetting" elementine "api.user" değerini yaz
+* "XrayApiKey_PluginPage" elementinin görünür olması kontrol edilir
+* "XrayApiKey_PluginPage" elementinin değerini temizle
+* "XrayApiKey_PluginPage" elementine "Digiport123" değerini yaz
+
+# Xray kartında değişiklik yapılır
+* "XrayApiKey_PluginPage" elementinin değerini temizle
+* "XrayApiKey_PluginPage" elementine "Digiport123" değerini yaz
+
+# Advance tabında xray butonunun enable edilmesi
+* "ProjectTab_AdvancedTab_XraySubTab" elementinin görünür olması kontrol edilir
+* "ProjectTab_AdvancedTab_XraySubTab" elementine tıkla
+
+# Advance tabında xray butonunun disable edilmesi
+* "ProjectTab_AdvancedTab_TestRailSubTab_DisableButon" elementine tıkla
+* "ProjectTab_AdvancedTab_TestRailSubTab_DisableButon" elementine tıkla
+* "ProjectTab_AdvancedTab_DisableName" elementinin görünür olması kontrol edilir
+
+# Plan tabına tıklanır for Xray
+* "PlanTabı_Xray" elementinin görünür olması kontrol edilir
+* "PlanTabı_Xray" elementine tıkla
+
+# Projenin seçilip edit butonuna tıklanması
+* "PlanTabı_SelectProject_EditButton" elementinin görünür olması kontrol edilir
+* "PlanTabı_SelectProject_EditButton" elementine tıkla
+
+# Advance setting tabına tıklanır for xray
+* "PlanTabı_AdvanceSetting" elementinin görünür olması kontrol edilir
+* "PlanTabı_AdvanceSetting" elementine tıkla
+
+# Xray plan sayfası advance tabı enable butonu
+* "10" saniye bekle
+* "PlanTabı_AdvancedSetting_XrayEnableButton" elementinin görünür olması kontrol edilir
+* "PlanTabı_AdvancedSetting_XrayEnableButton" elementine tıkla
+
+
 # Save butonuna tıklanır for plugin page
 * "SaveButton_PluginSetting" elementinin görünür olması kontrol edilir
 * "SaveButton_PluginSetting" elementine tıkla
@@ -30,6 +80,11 @@
 * "CancelButton_PluginSetting" elementine tıkla
 * Şu anki url "https://clouddev.testinium.io/user/account/plugin" ile aynı mı
 
+# Apply butonuna tıklanır for plugin page
+* "ApplyButton_AdvanceSetting" elementinin görünür olması kontrol edilir
+* "ApplyButton_AdvanceSetting" elementine tıkla
+* Şu anki url "https://clouddev.testinium.io/project/detail/1247/advanced" ile aynı mı
+
 # Projects tabına tıklanır for Plugin Page
 * "projectsTab_SideBarTabs" elementinin görünür olması kontrol edilir
 * "projectsTab_SideBarTabs" elementine tıkla
@@ -37,7 +92,16 @@
 # Advance tabında testrail butonunun enable edilmesi
 * "ProjectTab_AdvancedTab_TestRailSubTab" elementinin görünür olması kontrol edilir
 * "ProjectTab_AdvancedTab_TestRailSubTab" elementine tıkla
-/* "ProjectTab_AdvancedTab_TestRailSubTab_EnableButon" elementine tıkla
+
+
+
+# Advance tabında testrail butonunun disable edilmesi
+ "ProjectTab_AdvancedTab_TestRailSubTab_DisableButon" elementinin görünür olması kontrol edilir
+* "ProjectTab_AdvancedTab_TestRailSubTab_DisableButon" elementine tıkla
+* "ProjectTab_AdvancedTab_TestRailSubTab_DisableButon" elementine tıkla
+* "ProjectTab_AdvancedTab_DisableName" elementinin görünür olması kontrol edilir
+
+
 
 # Proje seçilip advance tabına tıklanır
 * Proje arama kutusuna "Selenium3Automation" yazılır.
@@ -55,3 +119,8 @@
 * "projectSearch_ProjectsPage" elementinin görünür olması kontrol edilir
 * "projectSearch_ProjectsPage" elementine <proje> değerini yaz
 * "1" saniye bekle
+
+# Priority field kontrolü
+* "PriorityFields" elementinin görünür olması kontrol edilir
+* "PriorityFields" elementine tıkla
+

@@ -43,6 +43,11 @@
   },
   {
 
+    "key": "ApplyButton_AdvanceSetting",
+    "value": "//button[@type='button' and contains(@class, 'btn') and contains(@class, 'btn-primary') and contains(@class, 'btn-lg') and contains(@class, 'mr-3') and contains(@class, 'ladda-button') and @ng-reflect-loading='false']",
+    "type": "xpath"
+  },
+  {
     "key": "ProjectTab_AdvancedTab",
     "value": "//a[@href='/project/detail/1247/advanced' and text()='ADVANCED']",
     "type": "xpath"
@@ -66,6 +71,103 @@
   },
   {
 
+    "key": "ProjectTab_AdvancedTab_TestRailSubTab_DisableButon",
+    "value": "//div[contains(@class, 'material-switch')]//label[@class='switch-primary']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "ProjectTab_AdvancedTab_TestRailSubTab_DisableButon_ProjectNameDisable",
+    "value": "//label[text()='TESTRAIL PROJECT NAME']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "ProjectTab_AdvancedTab_EnableName",
+    "value": "//span[@class='ng-tns-c2112547087-551' and text()='ENABLED']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "ProjectTab_AdvancedTab_DisableName",
+    "value": "//span[@class='ng-tns-c2112547087-551' and text()='DISABLED']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "XrayCardEdit_PluginPage",
+    "value": "//button[@nztooltiptitle='Edit' and @ng-reflect-router-link='edit/XRAY']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "XrayServerUrl_PluginSetting",
+    "value": "pluginFormUrl",
+    "type": "id"
+  },
+  {
+
+    "key": "XrayUserName_PluginSetting",
+    "value": "pluginFormUserName",
+    "type": "id"
+  },
+  {
+
+    "key": "XrayApiKey_PluginPage",
+    "value": "pluginFormAPIkey",
+    "type": "id"
+  },
+  {
+
+    "key": "ProjectTab_AdvancedTab_XraySubTab",
+    "value": "//button[@aria-selected='true']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "PlanTabı_Xray",
+    "value": "//a[@href='/project/detail/1247/plans' and text()='PLANS']",
+    "type": "xpath"
+  },
+  {
+    "key": "PlanTabı_SelectProject_EditButton",
+    "value": "//button[@ng-reflect-router-link='/plan/edit/2920']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "PlanTabı_AdvanceSetting",
+    "value": "//a[@ng-reflect-router-link='/plan/edit/2920/advanced']",
+    "type": "xpath"
+  },
+  {
+    "key": "PlanTabı_AdvancedSetting_XrayEnableButton",
+    "value": "//div[@class='ng-tns-c3486899017-5410']//label",
+    "type": "xpath"
+  },
+  {
+
+    "key": "PriorityFields",
+    "value": "//li[contains(text(), 'Priority')]/button[@type='button' and contains(@class, 'btn-outline') and contains(@class, 'btn-primary') and contains(@class, 'pull-right') and contains(@class, 'btn-xs')]\n",
+    "type": "xpath"
+  },
+  {
+    "key": "DescriptionFields",
+    "value": "//li[contains(text(), 'Description ')]/button[@type='button' and contains(@class, 'btn-outline') and contains(@class, 'btn-primary') and contains(@class, 'pull-right') and contains(@class, 'btn-xs')]",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
     "key": "",
     "value": "",
     "type": ""
@@ -77,7 +179,6 @@
     "type": ""
   },
   {
-
     "key": "",
     "value": "",
     "type": ""
@@ -89,7 +190,6 @@
     "type": ""
   },
   {
-
     "key": "",
     "value": "",
     "type": ""
@@ -101,7 +201,6 @@
     "type": ""
   },
   {
-
     "key": "",
     "value": "",
     "type": ""
@@ -113,7 +212,66 @@
     "type": ""
   },
   {
+    "key": "",
+    "value": "",
+    "type": ""
 
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
     "key": "",
     "value": "",
     "type": ""
@@ -123,8 +281,11 @@
     "key": "",
     "value": "",
     "type": ""
-
-
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
 
   }
 ]
