@@ -2,17 +2,17 @@
 Login sayfası concept dosyası
 
 # Geçerli login yapılır ve hesaba giriş yapılır
-* "https://accountdev.testinium.com/uaa/login" adresine git
-* Şu anki url "https://accountdev.testinium.com/uaa/login" ile aynı mı
+* "https://account-devcluster.testinium.io/uaa/login" adresine git
+* Şu anki url "https://account-devcluster.testinium.io/uaa/login" ile aynı mı
 * "userName_LoginPage" elementinin görünür olması kontrol edilir
 * "userName_LoginPage" elementine "mehmet.aksahin@testinium.com" değerini yaz
 * "password_LoginPage" elementinin görünür olması kontrol edilir
 * "password_LoginPage" elementine "Aa123456" değerini yaz
 * "signInButton_LoginPage" elementinin görünür olması kontrol edilir
 * "signInButton_LoginPage" elementine tıkla
-* Şu anki url "https://clouddev.testinium.io/home" içeriyor mu
+* Şu anki url "https://devcluster.testinium.io/home" içeriyor mu
 * "userInf_LoginPage" elementinin görünür olması kontrol edilir
-* "userInf_LoginPage" elementinin text değeri "Mehmet Aksahin" değerine eşit mi
+* "userInf_LoginPage" elementinin text değeri "mehmet aksahin" değerine eşit mi
 
 
 # <url> sayfasına gelinir

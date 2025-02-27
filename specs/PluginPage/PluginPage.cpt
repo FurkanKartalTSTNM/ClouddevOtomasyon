@@ -78,12 +78,12 @@
 # Cancel butonuna tıklanır for plugin page
 * "CancelButton_PluginSetting" elementinin görünür olması kontrol edilir
 * "CancelButton_PluginSetting" elementine tıkla
-* Şu anki url "https://clouddev.testinium.io/user/account/plugin" ile aynı mı
+* Şu anki url "https://devcluster.testinium.io/user/account/plugin" ile aynı mı
 
 # Apply butonuna tıklanır for plugin page
 * "ApplyButton_AdvanceSetting" elementinin görünür olması kontrol edilir
 * "ApplyButton_AdvanceSetting" elementine tıkla
-* Şu anki url "https://clouddev.testinium.io/project/detail/1247/advanced" ile aynı mı
+* Şu anki url "https://devcluster.testinium.io/project/detail/456/advanced" ile aynı mı
 
 # Projects tabına tıklanır for Plugin Page
 * "projectsTab_SideBarTabs" elementinin görünür olması kontrol edilir
@@ -123,4 +123,8 @@
 # Priority field kontrolü
 * "PriorityFields" elementinin görünür olması kontrol edilir
 * "PriorityFields" elementine tıkla
+
+# Plans tabına tıklanır for plugin page
+* "plansTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "plansTab_SideBarTabs" elementine tıkla
 

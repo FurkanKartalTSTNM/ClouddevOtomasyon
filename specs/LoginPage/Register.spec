@@ -5,7 +5,7 @@ Kayıt ol-Kayıt ol sayfasından login sayfasına geçiş
 ---------------------------------------------------
 Tags: KayitOlKayitOlSayfasindanLoginSayfasınaGecis
 
-* "https://account.testinium.com/uaa/login" sayfasına gelinir
+* "https://account-devcluster.testinium.io/uaa/login" sayfasına gelinir
 * Kayıt ol butonuna tıklanır
 * Kayıt ol paneli görülür
 * Kayıt ol sayfasında giriş yap butonuna tıklanır
@@ -15,7 +15,7 @@ Kayıt ol-Hesap adı boş bırakılır
 ------------------------------------
 Tags: KayitOlHesapAdiGecersizKarakter
 
-* "https://account.testinium.com/uaa/login" sayfasına gelinir
+* "https://account-devcluster.testinium.io/uaa/login" sayfasına gelinir
 * Kayıt ol butonuna tıklanır
 * Kayıt ol paneli görülür
 * Kayıt ol sayfasında hesap ismi kısmına "" ismi girilir
@@ -26,7 +26,7 @@ Kayıt ol-boş mail adresi
 ------------------------
 Tags: KayitOlBosMailAdresi
 
-* "https://account.testinium.com/uaa/login" sayfasına gelinir
+* "https://account-devcluster.testinium.io/uaa/login" sayfasına gelinir
 * Kayıt ol butonuna tıklanır
 * Kayıt ol paneli görülür
 * Kayıt ol sayfasında hesap ismi kısmına "test" ismi girilir
@@ -38,7 +38,7 @@ Kayıt ol-geçersiz mail-@siz mail girişi
 ---------------------------------------
 Tags: KayitOlGecersizMAilAtsizMailGirisi
 
-* "https://account.testinium.com/uaa/login" sayfasına gelinir
+* "https://account-devcluster.testinium.io/uaa/login" sayfasına gelinir
 * Kayıt ol butonuna tıklanır
 * Kayıt ol paneli görülür
 * Kayıt ol sayfasında hesap ismi kısmına "test" ismi girilir
@@ -50,7 +50,7 @@ Kayıt ol-geçersiz mail-geçersiz karakter
 ----------------------------------------
 Tags: KayitOlGecersizMailGecersizKarakter
 
-* "https://account.testinium.com/uaa/login" sayfasına gelinir
+* "https://account-devcluster.testinium.io/uaa/login" sayfasına gelinir
 * Kayıt ol butonuna tıklanır
 * Kayıt ol paneli görülür
 * Kayıt ol sayfasında hesap ismi kısmına "test" ismi girilir
@@ -62,7 +62,7 @@ Kayıt ol-Boş şifre
 ------------------
 Tags: KayitOlBosSfire
 
-* "https://account.testinium.com/uaa/login" sayfasına gelinir
+* "https://account-devcluster.testinium.io/uaa/login" sayfasına gelinir
 * Kayıt ol butonuna tıklanır
 * Kayıt ol paneli görülür
 * Kayıt ol sayfasında hesap ismi kısmına "test" ismi girilir
@@ -75,7 +75,7 @@ Kayıt ol-8 karakterden az şifre
 -------------------------------
 Tags: KayitOl8KarakterdenAzSifre
 
-* "https://account.testinium.com/uaa/login" sayfasına gelinir
+* "https://account-devcluster.testinium.io/uaa/login" sayfasına gelinir
 * Kayıt ol butonuna tıklanır
 * Kayıt ol paneli görülür
 * Kayıt ol sayfasında hesap ismi kısmına "test" ismi girilir

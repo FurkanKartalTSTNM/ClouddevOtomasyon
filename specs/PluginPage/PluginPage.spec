@@ -58,7 +58,7 @@ Tags: TestRailProjeninAdvanceTabKontrolu
 * Projects tabına tıklanır for Plugin Page
 * Proje seçilip advance tabına tıklanır
 
-TestRail Projenin Advance tabına tılandığında enable buton kontrolü
+TestRail Projenin Advance tabına tıklandığında enable buton kontrolü
 ---------------------
 Tags: TestRailProjeninAdvanceTabinaTiklandigindaEnableButonKontrolu
 
@@ -66,13 +66,37 @@ Tags: TestRailProjeninAdvanceTabinaTiklandigindaEnableButonKontrolu
 * Proje seçilip advance tabına tıklanır
 * Advance tabında testrail butonunun enable edilmesi
 
-TestRail Projenin Advance tabına tılandığında disable buton kontrolü
+TestRail Projenin Advance tabına tıklandığında disable buton kontrolü
 ---------------------
 Tags: TestRailProjeninAdvanceTabinaTiklandigindaDisableButonKontrolu
 
 * Projects tabına tıklanır for Plugin Page
 * Proje seçilip advance tabına tıklanır
  Advance tabında testrail butonunun disable edilmesi
+
+TestRail Projenin Advance Setting suit seçme kontrolü
+---------------------
+Tags: TestRailProjeninAdvanceSettingSuitSecmeKontrolu
+
+* Projects tabına tıklanır for Plugin Page
+* Plans tabına tıklanır for plugin page
+* Proje seçilip advance tabına tıklanır
+
+
+TestRail Projenin Advance Setting milestone seçme kontrolü
+---------------------
+Tags: TestRailProjeninAdvanceSettingMilestoneSecmeKontrolu
+
+* Projects tabına tıklanır for Plugin Page
+* Plans tabına tıklanır for plugin page
+
+
+TestRail Projenin Advance Setting plan seçme kontrolü
+---------------------
+Tags: TestRailProjeninAdvanceSettingPlanSecmeKontrolu
+
+* Projects tabına tıklanır for Plugin Page
+* Plans tabına tıklanır for plugin page
 
 Xray Plugin kartına tıklanır ve entegrasyon bilgileri girilir
 -------------------

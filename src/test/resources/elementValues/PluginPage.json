@@ -49,7 +49,7 @@
   },
   {
     "key": "ProjectTab_AdvancedTab",
-    "value": "//a[@href='/project/detail/1247/advanced' and text()='ADVANCED']",
+    "value": "//a[@href='/project/detail/456/advanced' and text()='ADVANCED']",
     "type": "xpath"
   },
   {
