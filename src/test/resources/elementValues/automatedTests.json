@@ -29,7 +29,7 @@
   },
   {
     "key": "operationReport_Title",
-    "value": "//a[@href='/automated/operation-report' and text()='OPERATION REPORT']",
+    "value": "//a[@href='/automated/operation-report' and text()='OPERATION REPORT ']",
     "type": "xpath"
   },
   {
@@ -56,7 +56,7 @@
   },
   {
     "key": "operation-report_AutomatedTests",
-    "value": "//a[@href=\"/automated/operation-report\" and text()='OPERATION REPORT']",
+    "value": "//a[@routerlink='/automated/operation-report' and contains(@class, 'active')]",
     "type": "xpath"
   },
   {

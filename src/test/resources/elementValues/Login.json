@@ -1,18 +1,18 @@
 [
   {
     "key": "userName_LoginPage",
-    "value": "username",
+    "value": "login-email-input",
     "type": "id"
   },
   {
     "key": "password_LoginPage",
-    "value": "password",
+    "value": "login-password-input",
     "type": "id"
   },
   {
     "key": "signInButton_LoginPage",
-    "value": "input[type='submit'][value='SIGN IN']",
-    "type": "css"
+    "value": "login-submit-button",
+    "type": "id"
   },
   {
     "key": "userInf_LoginPage",
@@ -56,18 +56,18 @@
   },
   {
     "key": "linkedinButton_LoginPage",
-    "value": "//form[@class='login-form']//a[contains(@class,'btn-social-button') and .//text()[normalize-space()='LinkedIn']]",
-    "type": "xpath"
+    "value": "linkedin-login-button",
+    "type": "id"
   },
   {
     "key": "googleButton_LoginPage",
-    "value": "//form[@class='login-form']//a[contains(@class,'btn-social-button') and .//text()[normalize-space()='Google']]",
-    "type": "xpath"
+    "value": "google-login-button",
+    "type": "id"
   },
   {
     "key": "githubButton_LoginPage",
-    "value": "//form[@class='login-form']//a[contains(@class,'btn-social-button') and .//text()[normalize-space()='Github']]",
-    "type": "xpath"
+    "value": "github-login-button",
+    "type": "id"
   },
   {
     "key": "signIn_ResetPage",

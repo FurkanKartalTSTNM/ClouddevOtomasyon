@@ -62,38 +62,38 @@
   },
   {
     "key": "HesapIsmiButton",
-    "value": "//span[@class='first-line long-text'][text()='Testinium QA']",
+    "value": "//span[@class='first-line long-text'][text()='Testinium Company']",
     "type": "xpath"
   },
   {
     "key": "HesapIsmiButton_Profile",
-    "value": "//a[@class='dropdown-item'][@href='/user/profile']",
+    "value": "//li[@nz-menu-item and contains(@class, 'ant-dropdown-menu-item')]//span[text()='PROFILE']",
     "type": "xpath"
   },
   {
     "key": "HesapIsmiButton_AccountInformation",
-    "value": "//a[@class='dropdown-item'][@href='/user/account']",
+    "value": "//li[@nz-menu-item and contains(@class, 'ant-dropdown-menu-item')]//span[text()='ACCOUNT INFORMATION']",
     "type": "xpath"
   },
   {
     "key": "HesapIsmiButton_Logout",
-    "value": "//a[@class='dropdown-item'][text()='LOG OUT']",
+    "value": "//li[@nz-menu-item and contains(@class, 'ant-dropdown-menu-item')]//span[text()='LOG OUT']\n",
     "type": "xpath"
   },
   {
     "key": "latestTestRuns",
-    "value": "//table[@class='table']",
+    "value": "//h4[@class='no-margin-top margin-bottom-20 font-weight-600 text-center' and text()='LATEST PLAN RUNS']\n",
     "type": "xpath"
   },
   {
     "key": "companySelect",
-    "value": "//div[@class='company-dropdown']/select",
+    "value": "//nz-select-item[contains(@class, 'ant-select-selection-item') and text()[normalize-space()='mehmet_aksahin']]",
     "type": "xpath"
   },
   {
     "key": "planDetail_Table",
-    "value": "//a[@href='/report/detail/719135']",
-    "type": "xpath"
+    "value": "latest-plan-runs-detail-button",
+    "type": "id"
 
   },
   {

@@ -12,7 +12,7 @@ Login sayfası concept dosyası
 * "signInButton_LoginPage" elementine tıkla
 * Şu anki url "https://devcluster.testinium.io/home" içeriyor mu
 * "userInf_LoginPage" elementinin görünür olması kontrol edilir
-* "userInf_LoginPage" elementinin text değeri "mehmet aksahin" değerine eşit mi
+* "userInf_LoginPage" elementinin text değeri "Testinium Company" değerine eşit mi
 
 
 # <url> sayfasına gelinir
@@ -53,7 +53,7 @@ Login sayfası concept dosyası
 * "alertDanger_LoginPage" elementinin text değeri <mesaj> değerine eşit mi
 
 # UserNotEnabledException sayfasına yönlendiği görülür
-* Şu anki url "https://account.testinium.com/uaa/login?error=UserNotEnabledException" ile aynı mı
+* Şu anki url "https://account-devcluster.testinium.io/uaa/login?error=UsernameNotExistsException" ile aynı mı
 
 # User Not Enabled sayfasında <mesaj> mesajının alındığı görülür
 * "verificationText_LoginPage" elementinin görünür olması kontrol edilir

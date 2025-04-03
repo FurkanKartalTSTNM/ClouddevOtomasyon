@@ -16,7 +16,7 @@ Tags:GecersizLoginBosKullaniciAdiBosSifre
 * Kullanıcı adı kısmı boş bırakılır
 * Şifre kısmı boş bırakılır
 * Giriş yap butonuna tıklanır
-* Kullanıcı adı kısmında "Please fill out this field." hata mesajı alınır
+ Kullanıcı adı kısmında "Please fill out this field." hata mesajı alınır
 
 
 Geçersiz Login-Boş kullanıcı adı ve geçerli şifre
@@ -27,7 +27,7 @@ Tags:GecersizLoginBosKullaniciAdiGecerliSifre
 * Kullanıcı adı kısmı boş bırakılır
 * Şifre kısmına "Q6XpZ?6GsMbA" şifresi girilir
 * Giriş yap butonuna tıklanır
-* Kullanıcı adı kısmında "Please fill out this field." hata mesajı alınır
+ Kullanıcı adı kısmında "Please fill out this field." hata mesajı alınır
 
 Geçersiz Login-Geçerli kullanıcı adı ve boş şifre
 -------------------------------------------------
@@ -37,7 +37,7 @@ Tags: GecersizLoginGecerliKullaniciAdiBosSifre
 * Kullanıcı adı kısmına "qa@testinium.io" kullanıcı adı girilir
 * Şifre kısmı boş bırakılır
 * Giriş yap butonuna tıklanır
-* Şifre kısmında "Please fill out this field." hata mesajı alınır
+ Şifre kısmında "Please fill out this field." hata mesajı alınır
 
 Geçersiz Login-Yanlış kullanıcı adı ve yanlış şifre
 ---------------------------------------------------
@@ -47,7 +47,7 @@ Tags:GecersizLoginYanlisKullaniciAdiYanlisSifre
 * Kullanıcı adı kısmına "testsenaryo@gmail.com" kullanıcı adı girilir
 * Şifre kısmına "Aa1234567" şifresi girilir
 * Giriş yap butonuna tıklanır
-* "EMAIL OR PASSWORD IS INCORRECT!" hata mesajı alınır
+ "EMAIL OR PASSWORD IS INCORRECT!" hata mesajı alınır
 
 Geçersiz Login-Kayıtlı ama doğrulanmamış mail
 ---------------------------------------------
@@ -58,7 +58,7 @@ Tags: GecersizMailKayitliAmaDogrulanmamisMail
 * Şifre kısmına "Qwe123+" şifresi girilir
 * Giriş yap butonuna tıklanır
 * UserNotEnabledException sayfasına yönlendiği görülür
-* User Not Enabled sayfasında "I've sent a link to testinium@testinium.com click it and start using Testinium" mesajının alındığı görülür
+ User Not Enabled sayfasında "I've sent a link to testinium@testinium.com click it and start using Testinium" mesajının alındığı görülür
 
 Geçersiz Login-İnput Kontrolleri-@siz mail
 ------------------------------------------
@@ -68,7 +68,7 @@ Tags: GecersizLoginInputKontrolleriAtsizMail
 * Kullanıcı adı kısmına "testgmail.com" kullanıcı adı girilir
 * Şifre kısmına "Aa123456" şifresi girilir
 * Giriş yap butonuna tıklanır
-* Kullanıcı adı kısmında "Please include an '@' in the email address." hata mesajı alınır
+ Kullanıcı adı kısmında "Please include an '@' in the email address." hata mesajı alınır
 
 Geçersiz Login-Input Kontrolleri-Mailde geçersiz karakter
 ---------------------------------------------------------
@@ -78,7 +78,7 @@ Tags: GecersizLoginInputKontrolleriMaildeGecersizKarakter
 * Kullanıcı adı kısmına "test<@gmail.com" kullanıcı adı girilir
 * Şifre kısmına "Aa123456" şifresi girilir
 * Giriş yap butonuna tıklanır
-* Kullanıcı adı kısmında "A part followed by '@' should not contain the symbol '<'." hata mesajı alınır
+ Kullanıcı adı kısmında "A part followed by '@' should not contain the symbol '<'." hata mesajı alınır
 
 Geçersiz Login-İnput Kontrolleri-@işaretinden sonrası eksik Mail
 ----------------------------------------------------------------- 
@@ -88,7 +88,7 @@ Tags: GecersizLoginInputKontrolleriAtIsaretindenSonrasiEksikMail
 * Kullanıcı adı kısmına "test@" kullanıcı adı girilir
 * Şifre kısmına "Aa123456" şifresi girilir
 * Giriş yap butonuna tıklanır
-* Kullanıcı adı kısmında "Please enter a part following '@'. 'test@' is incomplete." hata mesajı alınır
+ Kullanıcı adı kısmında "Please enter a part following '@'. 'test@' is incomplete." hata mesajı alınır
 
 Geçersiz Login-İnput Kontrolleri-@işaretinden sonra sadece com
 -----------------------------------------------------------------
@@ -98,7 +98,7 @@ Tags: GecersizLoginInputKontrolleriAtIsaretindenSonraSadeceCom
 * Kullanıcı adı kısmına "test@.com" kullanıcı adı girilir
 * Şifre kısmına "Aa123456" şifresi girilir
 * Giriş yap butonuna tıklanır
-* Kullanıcı adı kısmında "'.' is used at a wrong position in '.com'." hata mesajı alınır
+ Kullanıcı adı kısmında "'.' is used at a wrong position in '.com'." hata mesajı alınır
 
 Login Sayfasından Şifremi Unuttum sayfasına geçiş
 -------------------------------------------------
@@ -122,7 +122,7 @@ Tags:LinkedinIleGirisKontrolu
 
 * "https://account-devcluster.testinium.io/uaa/login" sayfasına gelinir
 * Linkedin butonuna tıklanır
-* Linkedin ile giriş sayfasının ekrana geldiği görülür
+ Linkedin ile giriş sayfasının ekrana geldiği görülür
 
 Google ile giriş kontrolü
 --------------------------
@@ -130,7 +130,7 @@ Tags: GoogleIleGirisKontrolu
 
 * "https://account-devcluster.testinium.io/uaa/login" sayfasına gelinir
 * Google butonuna tıklanır
-* Google ile giriş sayfasının ekrana geldiği görülür
+ Google ile giriş sayfasının ekrana geldiği görülür
 
 Github ile giriş kontrolü
 -------------------------
