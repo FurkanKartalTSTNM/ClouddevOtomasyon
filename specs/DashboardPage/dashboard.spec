@@ -108,7 +108,7 @@ Tags: DashboardCompanySecimiReturnToYourOwnCompany
 
 Dashboarddan User Profile geçiş
 ------------------------------
-Tags: DashboarddanUserProfileGecisŞ
+Tags: DashboarddanUserProfileGecis
 
 * Hesap ismine tıklanır
 * Profile tabına tıklanır

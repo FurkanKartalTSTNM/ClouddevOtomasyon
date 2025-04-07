@@ -165,7 +165,7 @@ public class LocalBrowserExec {
         // options
         setProxy(capabilities);
         chromeOptions.merge(capabilities);
-        //System.setProperty("webdriver.chrome.driver","webdriver/chromedriver");
+        //System.setProperty("webdriver.chrome.driver","webdriver/chrome/chromedriver");
         return new ChromeDriver(chromeOptions);
     }
 
