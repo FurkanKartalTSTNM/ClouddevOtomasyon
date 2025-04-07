@@ -8,10 +8,17 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<<<<<<< HEAD
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <maven.compiler.compilerVersion>11</maven.compiler.compilerVersion>
         <gauge.version>0.10.3</gauge.version>
+=======
+        <maven.compiler.source>23</maven.compiler.source>
+        <maven.compiler.target>23</maven.compiler.target>
+        <maven.compiler.compilerVersion>23</maven.compiler.compilerVersion>
+        <gauge.version>0.7.3</gauge.version>
+>>>>>>> origin/main
         <selenium.version>3.141.59</selenium.version>
         <maven.compiler.version>3.7.0</maven.compiler.version>
         <junit5.version>5.8.1</junit5.version>
