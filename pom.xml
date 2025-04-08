@@ -8,16 +8,12 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
-        <gauge.version>0.6.9</gauge.version>
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
         <maven.compiler.compilerVersion>23</maven.compiler.compilerVersion>
-        <gauge.version>0.7.3</gauge.version>
+        <gauge.version>0.11.1</gauge.version>
         <selenium.version>3.141.59</selenium.version>
-        <maven.compiler.version>3.7.0</maven.compiler.version>
+        <maven.compiler.version>3.11.0</maven.compiler.version>
         <junit5.version>5.8.1</junit5.version>
         <junit5.platform.version>1.8.1</junit5.platform.version>
         <junit4.version>4.13.2</junit4.version>
