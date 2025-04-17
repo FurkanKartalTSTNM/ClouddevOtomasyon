@@ -72,6 +72,7 @@ public class Driver {
 
     @BeforeScenario
     public void beforeScenario(ExecutionContext executionContext) throws MalformedURLException, Exception {
+        System.out.println("MainBranch");
         logger.info(System.getenv("otomasyon"));
         logger.info("_________________________________________________________________________");
         logger.info("------------------------SCENARIO-------------------------");
